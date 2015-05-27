@@ -82,7 +82,7 @@ function create_markup($markup, $args)
 		array('<label class="form-label">', '</label>'),
 		array('<span class="form-label">', '</span>'),
 		array('<option>', '</option>'),
-		array('<button>', '</button>'),
+		array('<button class="button">', '</button>'),
 		array('<legend>', '</legend>'),
 		array('<div class="thumbnail-caption">', '</div>'),
 		array('<figcaption class="thumbnail-caption">', '</figcaption>'),

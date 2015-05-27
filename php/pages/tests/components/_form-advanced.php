@@ -1,11 +1,7 @@
 
-
 	<div class="container container-center">
-
 		<h1>Form advanced</h1>
-
 		<form class="form margin">
-
 			<div class="form-row">
 				<p class="form-controls-condensed">
 					<input type="radio" id="form-s-r" name="radio1">
@@ -50,7 +46,5 @@
 						<input type="checkbox" disabled checked> 3</label>
 				</p>
 			</div>
-
 		</form>
-
 	</div>

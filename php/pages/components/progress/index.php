@@ -56,16 +56,16 @@
 &lt;div class="progress progress-small"&gt;...&lt;/div&gt;</code></pre>
 					<hr>
 					<h2 id="color-modifiers"><a href="#color-modifiers" class="link-reset">Color modifiers</a></h2>
-					<p>To apply different colors to your progress bars, just add the <code>.progress-success</code>, <code>.progress-warning</code> or <code>.progress-danger</code> class.</p>
+					<p>To apply different colors to your progress bars, just add the <code>.progress-bar-success</code>, <code>.progress-bar-warning</code> or <code>.progress-bar-danger</code> class.</p>
 					<h3 class="docs-article-subtitle">Example</h3>
-					<div class="progress progress-success">
-						<div class="progress-bar" style="width: 75%;"></div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success" style="width: 75%;"></div>
 					</div>
-					<div class="progress progress-warning">
-						<div class="progress-bar" style="width: 55%;"></div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-warning" style="width: 55%;"></div>
 					</div>
-					<div class="progress progress-danger">
-						<div class="progress-bar" style="width: 35%;"></div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-danger" style="width: 35%;"></div>
 					</div>
 					<h3 class="docs-article-subtitle">Markup</h3>
 					<pre><code>&lt;div class="progress progress-success"&gt;...&lt;/div&gt;
@@ -75,15 +75,15 @@
 					<h3>Striped</h3>
 					<p>To create a striped progress bar, use the <code>.striped</code> class.</p>
 					<h3 class="docs-article-subtitle">Example</h3>
-					<div class="progress progress-striped">
-						<div class="progress-bar" style="width: 65%;"></div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped" style="width: 65%;"></div>
 					</div>
 					<h3 class="docs-article-subtitle">Markup</h3>
 					<pre><code>&lt;div class="progress progress-striped"&gt;...&lt;/div&gt;</code></pre>
 					<p>You can even animate the striped bar. To do so, just add the <code>.active</code> class.</p>
 					<h3 class="docs-article-subtitle">Example</h3>
-					<div class="progress progress-striped active">
-						<div class="progress-bar" style="width: 85%;"></div>
+					<div class="progress active">
+						<div class="progress-bar progress-bar-striped active" style="width: 85%;"></div>
 					</div>
 					<h3 class="docs-article-subtitle">Markup</h3>
 					<pre><code>&lt;div class="progress progress-striped active"&gt;...&lt;/div&gt;</code></pre>

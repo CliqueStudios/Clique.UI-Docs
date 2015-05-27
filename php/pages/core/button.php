@@ -15,8 +15,8 @@
 					<p>Add the <code>disabled</code> attribute to a <code>&lt;button&gt;</code> or the <code>.disabled</code> class to an <code>&lt;a&gt;</code> element to disable the button.</p>
 					<?php
 					$text = '<a class="button" href="#">Link</a>
-<button>Button</button>
-<button disabled>Disabled</button>';
+<button class="button">Button</button>
+<button class="button" disabled>Disabled</button>';
 						print_example($text);
 					?>
 					<hr>
@@ -33,17 +33,17 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td><button class="button-primary">Primary</button></td>
+									<td><button class="button button-primary">Primary</button></td>
 									<td><code>.button-primary</code></td>
 									<td>Emphasizes to identify the primary action in a set of buttons.</td>
 								</tr>
 								<tr>
-									<td><button class="button-success">Success</button></td>
+									<td><button class="button button-success">Success</button></td>
 									<td><code>.button-success</code></td>
 									<td>Indicates a successful or positive action.</td>
 								</tr>
 								<tr>
-									<td><button class="button-danger">Danger</button></td>
+									<td><button class="button button-danger">Danger</button></td>
 									<td><code>.button-danger</code></td>
 									<td>Indicates a dangerous or negative action.</td>
 								</tr>
@@ -69,17 +69,17 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td><button class="button-mini">Mini button</button></td>
+									<td><button class="button button-mini">Mini button</button></td>
 									<td><code>.button-mini</code></td>
 									<td>11px Font Size; 6px Horizontal Padding</td>
 								</tr>
 								<tr>
-									<td><button class="button-small">Small button</button></td>
+									<td><button class="button button-small">Small button</button></td>
 									<td><code>.button-small</code></td>
 									<td>12px Font Size; 10px Horizontal Padding</td>
 								</tr>
 								<tr>
-									<td><button class="button-large">Large button</button></td>
+									<td><button class="button button-large">Large button</button></td>
 									<td><code>.button-large</code></td>
 									<td>16px Font Size; 15px Horizontal Padding</td>
 								</tr>
@@ -90,7 +90,7 @@
 					<h3>Full width button</h3>
 					<p>Add the <code>.button-block</code> class to allow the button to take up full width.</p>
 					<?php
-					$text = '<button class="button-large button-block">Button</button>';
+					$text = '<button class="button button-large button-block">Button</button>';
 						print_example($text);
 					?>
 					<hr>
@@ -100,8 +100,8 @@
 					$text = '<div class="margin">
 	<div class="button-group">
 		<a class="button" href="#">Link</a>
-		<button>Button</button>
-		<button>Button</button>
+		<button class="button">Button</button>
+		<button class="button">Button</button>
 	</div>
 </div>';
 						print_example($text);
@@ -110,7 +110,7 @@
 					<h2 id="javascript"><a href="#javascript" class="link-reset">JavaScript</a></h2>
 					<p>You can toggle button states via JavaScript. Just add the data attibute <code>data-button</code>.</p>
 					<?php
-					$text = '<button class="button-primary" data-button>Button</button>';
+					$text = '<button class="button button-primary" data-button>Button</button>';
 						print_example($text);
 					?>
 					<hr>
@@ -119,9 +119,9 @@
 					<?php
 					$text = '<div class="margin">
 	<div data-button-checkbox>
-		<button>Button</button>
-		<button>Button</button>
-		<button>Button</button>
+		<button class="button">Button</button>
+		<button class="button">Button</button>
+		<button class="button">Button</button>
 	</div>
 </div>';
 						print_example($text);
@@ -132,9 +132,9 @@
 					<?php
 						$text = '<div class="margin">
 	<div data-button-radio>
-		<button>Button</button>
-		<button>Button</button>
-		<button>Button</button>
+		<button class="button">Button</button>
+		<button class="button">Button</button>
+		<button class="button">Button</button>
 	</div>
 </div>';
 						print_example($text);
@@ -145,7 +145,7 @@
 					<?php
 					$text = '<div class="margin" data-margin>
 	<div class="button-dropdown" data-dropdown>
-		<button>Hover <i class="icon-chevron-down"></i>
+		<button class="button">Hover <i class="icon-chevron-down"></i>
 		</button>
 		<div class="dropdown dropdown-small">
 			<ul class="nav nav-dropdown">
@@ -160,7 +160,7 @@
 		</div>
 	</div>
 	<div class="button-dropdown" data-dropdown>
-		<button disabled>Disabled <i class="icon-chevron-down"></i></button>
+		<button class="button" disabled>Disabled <i class="icon-chevron-down"></i></button>
 		<div class="dropdown dropdown-small">
 			<ul class="nav nav-dropdown">
 				<li><a href="#">Item</a></li>
@@ -182,9 +182,9 @@
 					<?php
 					$text = '<div class="margin" data-margin>
 	<div class="button-group">
-		<button>Click</button>
+		<button class="button">Click</button>
 		<div data-dropdown="{mode:\'click\'}">
-			<button><i class="icon-chevron-down"></i></button>
+			<button class="button"><i class="icon-chevron-down"></i></button>
 			<div class="dropdown dropdown-small">
 				<ul class="nav nav-dropdown">
 					<li><a href="#">Item</a></li>
@@ -199,9 +199,9 @@
 		</div>
 	</div>
 	<div class="button-group">
-		<button disabled>Disabled</button>
+		<button class="button" disabled>Disabled</button>
 		<div data-dropdown="{mode:\'click\'}">
-			<button disabled><i class="icon-chevron-down"></i></button>
+			<button class="button" disabled><i class="icon-chevron-down"></i></button>
 			<div class="dropdown dropdown-small">
 				<ul class="nav nav-dropdown">
 					<li><a href="#">Item</a></li>

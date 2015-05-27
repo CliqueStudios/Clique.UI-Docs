@@ -1,12 +1,8 @@
 
 	<script src="../../dist/js/components/form-select.js"></script>
-
 	<div class="container container-center">
-
 		<h1>Form select</h1>
-
 		<div class="margin">
-
 			<div class="form-select" data-form-select>
 				<span></span>
 				<select>
@@ -16,11 +12,8 @@
 					<option value="4">Option 04</option>
 				</select>
 			</div>
-
 		</div>
-
 		<div class="margin">
-
 			<div class="form-select" data-form-select="{target:'a'}">
 				<a></a>
 				<select>
@@ -30,11 +23,8 @@
 					<option value="4">Option 04</option>
 				</select>
 			</div>
-
 		</div>
-
 		<div class="margin">
-
 			<div class="button form-select" data-form-select>
 				<span></span>
 				<i class="icon-chevron-down"></i>
@@ -45,7 +35,5 @@
 					<option value="4">Option 04</option>
 				</select>
 			</div>
-
 		</div>
-
 	</div>

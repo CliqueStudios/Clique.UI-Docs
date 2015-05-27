@@ -1,9 +1,6 @@
 
-
 	<div class="container container-center">
-
 		<h1>Thumbnav</h1>
-
 		<ul class="thumbnav">
 			<li class="active">
 				<a href="#">
@@ -46,5 +43,4 @@
 				</a>
 			</li>
 		</ul>
-
 	</div>

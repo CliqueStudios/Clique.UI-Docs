@@ -357,7 +357,7 @@
 											<div>
 												<h3>Title</h3>
 												<p>Lorem <a href="#">ipsum dolor</a> sit amet, consetetur sadipscing elitr.</p>
-												<button class="button-primary">Button</button>
+												<button class="button button-primary">Button</button>
 											</div>
 										</figcaption>
 									</figure>
@@ -369,7 +369,7 @@
 											<div>
 												<h3>Title</h3>
 												<p>Lorem <a href="#">ipsum dolor</a> sit amet, consetetur sadipscing elitr.</p>
-												<button class="button-primary">Button</button>
+												<button class="button button-primary">Button</button>
 											</div>
 										</figcaption>
 									</figure>

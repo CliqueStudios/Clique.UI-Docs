@@ -27,7 +27,7 @@
 		</select>
 
 		<!-- Button -->
-		<button>Button</button>
+		<button class="button">Button</button>
 
 		<!-- Checbox -->
 		<label>
@@ -58,7 +58,7 @@
 			</select>
 		</div>
 		<div class="form-row">
-			<button>Button</button>
+			<button class="button">Button</button>
 		</div>
 		<div class="form-row">
 			<label>

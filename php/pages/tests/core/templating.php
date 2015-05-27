@@ -6,11 +6,9 @@
 			<strong>Template</strong>
 			<textarea id="template" class="col-12-12" style="min-height:200px;">{{#bool}} bool is true {{/bool}}
 {{^bool}} bool is false {{/bool}}
-
 {{~list}}
    {{$i+1}} {{$item}}
 {{/list}}
-
 {{:set}}
    {{$key}} {{$val}}
 {{/set}}</textarea>

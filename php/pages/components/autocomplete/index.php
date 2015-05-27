@@ -27,7 +27,7 @@
 					<div class="autocomplete form" data-autocomplete="{source:'../tests/components/_autocomplete.json'}">
 						<input type="text">
 						<script type="text/autocomplete">
-							<ul class="nav nav-autocomplete autocomplete-results">
+							<ul class="nav autocomplete-nav autocomplete-results">
 								{{~items}}
 								<li data-value="{{ $item.value }}">
 									<a> {{ $item.title }}
@@ -42,7 +42,7 @@
 					<pre><code>&lt;div class="autocomplete form" data-autocomplete="{source:'my-autocomplete.json'}"&gt;
     &lt;input type="text"&gt;
     &lt;script type="text/autocomplete"&gt;
-        &lt;ul class="nav nav-autocomplete autocomplete-results"&gt;
+        &lt;ul class="nav autocomplete-nav autocomplete-results"&gt;
             {{~items}}
             &lt;li data-value="{{ $item.value }}"&gt;
                 &lt;a&gt;

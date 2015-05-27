@@ -1,10 +1,7 @@
 
 	<script src="../../dist/js/components/nestable.js"></script>
-
 	<div class="container container-center">
-
 		<h1>Nestable</h1>
-
 		<ul class="nestable" data-nestable>
 			<li>
 				<div class="nestable-item">
@@ -49,9 +46,7 @@
 				</div>
 			</li>
 		</ul>
-
 		<h2>Second list</h2>
-
 		<ul class="nestable" data-nestable>
 			<li>
 				<div class="nestable-item">
@@ -61,9 +56,7 @@
 				</div>
 			</li>
 		</ul>
-
 		<h2>Nesting disabled</h2>
-
 		<ul class="nestable" data-nestable="{maxDepth:1, group:'no-nesting'}">
 			<li>
 				<div class="nestable-item">

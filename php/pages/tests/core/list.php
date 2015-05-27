@@ -1,11 +1,7 @@
 
-
 	<div class="container container-center">
-
 		<h1>List</h1>
-
 		<div class="row" data-row-margin>
-
 			<div class="col-3-12-medium">
 				<ul class="list">
 					<li>List item 1</li>
@@ -91,5 +87,4 @@
 				</ul>
 			</div>
 		</div>
-
 	</div>

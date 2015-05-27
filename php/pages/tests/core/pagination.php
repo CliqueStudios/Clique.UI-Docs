@@ -42,7 +42,6 @@
 				</span>
 			</li>
 		</ul>
-
 		<ul class="pagination pagination-left" data-margin>
 			<li class="disabled">
 				<span>
@@ -84,7 +83,6 @@
 				</span>
 			</li>
 		</ul>
-
 		<ul class="pagination pagination-right" data-margin>
 			<li class="disabled">
 				<span>
@@ -126,12 +124,10 @@
 				</span>
 			</li>
 		</ul>
-
 		<ul class="pagination">
 			<li><a href="#"><i class="icon-chevron-left"></i> Previous</a></li>
 			<li><a href="#">Next <i class="icon-chevron-right"></i></a></li>
 		</ul>
-
 		<h2>Previous/Next</h2>
 		<ul class="pagination">
 			<li class="pagination-previous">
@@ -147,5 +143,4 @@
 				<span>Next <i class="icon-chevron-right"></i></span>
 			</li>
 		</ul>
-
 	</div>

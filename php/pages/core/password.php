@@ -13,7 +13,7 @@
 					<h3 class="docs-article-subtitle">Example</h3>
 					<form class="form">
 						<div class="form-password">
-							<input type="password" value="Bazinga!">
+							<input type="password" value="World!">
 							<a href="#" class="form-password-toggle" data-form-password>Show</a>
 						</div>
 					</form>

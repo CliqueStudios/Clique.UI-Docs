@@ -25,7 +25,7 @@
 							</ul>
 						</div>
 					</div>
-					<ul id="headings-tabs" class="switcher margin">
+					<ul id="headings-tabs" class="switcher margin docs-example">
 						<li>
 							<div class="row">
 								<div class="col-6-12">

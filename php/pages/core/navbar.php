@@ -286,12 +286,12 @@
 									<div class="navbar-content hidden-small">
 										<form class="form margin-remove display-inline-block">
 											<input type="text" placeholder="Search">
-											<button class="button-primary">Submit</button>
+											<button class="button button-primary">Submit</button>
 										</form>
 									</div>
 									<div class="navbar-content navbar-flip hidden-small">
 										<div class="button-group"><a class="button button-danger" href="">Link</a>
-											<button class="button-danger">Button</button>
+											<button class="button button-danger">Button</button>
 										</div>
 									</div>
 								</nav>

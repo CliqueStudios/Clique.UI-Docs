@@ -83,37 +83,41 @@ html {
 h1,
 h2 {
 	color: #666;
+	.docs-example & {
+		color: inherit;
+	}
 }
 
-.docs-middle,
-.docs-section,
-.docs-footer {
-	padding: 50px 0;
-}
-.docs-main {
-	> .article {
-		> .article-title {
-			color: #F88601;
-			+ .article-lead {
-				font-size: 18px;
-				color: #666;
+.docs {
+	&-middle,
+	&-section,
+	&-footer {
+		padding: 50px 0;
+	}
+	&-main {
+		> .article {
+			> .article-title {
+				color: #F88601;
+				+ .article-lead {
+					font-size: 18px;
+					color: #666;
+				}
 			}
-		}
-		> .article-title,
-		> h2,
-		> h3 {
-			font-family: @article-header;
-			font-weight: 400;
-			text-transform: uppercase;
-		}
-		> * {
-			+ h2 {
+			> .article-title,
+			> h2,
+			> h3 {
+				font-family: @article-header;
+				text-transform: uppercase;
+			}
+			> * {
+				+ h2 {
+					margin-top: 50px;
+				}
+			}
+			> hr {
 				margin-top: 50px;
+				margin-bottom: 50px;
 			}
-		}
-		> hr {
-			margin-top: 50px;
-			margin-bottom: 50px;
 		}
 	}
 }

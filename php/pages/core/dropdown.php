@@ -34,7 +34,7 @@
 				<?php
 					$text = '<div class="margin">
 	<div class="button-dropdown" data-dropdown>
-		<button>Hover me <i class="icon-chevron-down"></i></button>
+		<button class="button">Hover me <i class="icon-chevron-down"></i></button>
 		<div class="dropdown">
 			<ul class="nav nav-dropdown">
 				<li><a href="#">Item</a></li>
@@ -48,7 +48,7 @@
 		</div>
 	</div>
 	<div class="button-dropdown" data-dropdown="{mode:\'click\'}">
-		<button>Click me <i class="icon-chevron-down"></i></button>
+		<button class="button">Click me <i class="icon-chevron-down"></i></button>
 		<div class="dropdown">
 			<ul class="nav nav-dropdown">
 				<li><a href="#">Item</a></li>
@@ -68,7 +68,7 @@
 					<h3>Delayed dropdowns in hover mode</h3>
 					<p>You can set a <code>delay</code> parameter in milliseconds to prevent the immediate appearance of the dropdown.</p>
 					<div class="button-dropdown" data-dropdown="{delay: 1000}">
-						<button>Hover me <i class="icon-chevron-down"></i></button>
+						<button class="button">Hover me <i class="icon-chevron-down"></i></button>
 						<div class="dropdown">
 							<ul class="nav nav-dropdown">
 								<li><a href="#">Item</a></li>
@@ -119,7 +119,7 @@
 					</div>
 				<?php
 					$text = '<div class="button-dropdown" data-dropdown>
-	<button>Flip <i class="icon-chevron-down"></i></button>
+	<button class="button">Flip <i class="icon-chevron-down"></i></button>
 	<div class="dropdown dropdown-flip">
 		<ul class="nav nav-dropdown">
 			<li><a href="#">Item</a></li>
@@ -133,7 +133,7 @@
 	</div>
 </div>
 <div class="button-dropdown" data-dropdown>
-	<button>Up <i class="icon-caret-up"></i></button>
+	<button class="button">Up <i class="icon-caret-up"></i></button>
 	<div class="dropdown dropdown-up">
 		<ul class="nav nav-dropdown">
 			<li><a href="#">Item</a></li>
@@ -147,7 +147,7 @@
 	</div>
 </div>
 <div class="button-dropdown" data-dropdown>
-	<button>Center <i class="icon-chevron-down"></i></button>
+	<button class="button">Center <i class="icon-chevron-down"></i></button>
 	<div class="dropdown dropdown-center">
 		<ul class="nav nav-dropdown">
 			<li><a href="#">Item</a></li>
@@ -168,7 +168,7 @@
 				<?php
 					$text = '<div id="justify1">
 	<div class="button-dropdown" data-dropdown="{justify:\'#justify1\'}">
-		<button>Justify <i class="icon-chevron-down"></i></button>
+		<button class="button">Justify <i class="icon-chevron-down"></i></button>
 		<div class="dropdown">
 			<ul class="nav nav-dropdown">
 				<li><a href="#">Item</a></li>
@@ -189,7 +189,7 @@
 					<p>By default, the dropdown flips automatically when it exceeds the viewport's edge. If you want to flip it according to a container's boundary, just add the <code>data-dropdown="{boundary:'#ID'}"</code> attribute, using a selector for the container.</p>
 				<?php
 					$text = '<div id="boundary" class="button-dropdown" data-dropdown="{boundary:\'#boundary\'}">
-	<button>Boundary <i class="icon-chevron-down"></i></button>
+	<button class="button">Boundary <i class="icon-chevron-down"></i></button>
 	<div class="dropdown">
 		<ul class="nav nav-dropdown">
 			<li><a href="#">Item</a></li>
@@ -209,7 +209,7 @@
 					<p>You can even place a grid from the <a href="<?php echo get_url('core/grid'); ?>">Grid component</a> inside a dropdown, which can hold a navigation or any other content. Just wrap the content with a <code>&lt;div&gt;</code> and add the <code>.row</code> class. To optimize the grid for use inside the dropdown, add the <code>.dropdown-grid</code> class. Add one of the <code>.dropdown-col-*</code> classes to the grid's child elements to multiply the dropdown's width by up to 5.</p>
 				<?php
 					$text = '<div class="button-dropdown" data-dropdown>
-	<button>2 Columns <i class="icon-chevron-down"></i></button>
+	<button class="button">2 Columns <i class="icon-chevron-down"></i></button>
 	<div class="dropdown dropdown-col-2">
 		<div class="row dropdown-grid">
 			<div class="col-6-12">
@@ -238,7 +238,7 @@
 	</div>
 </div>
 <div class="button-dropdown" data-dropdown>
-	<button>3 Columns <i class="icon-chevron-down"></i></button>
+	<button class="button">3 Columns <i class="icon-chevron-down"></i></button>
 	<div class="dropdown dropdown-col-3">
 		<div class="row dropdown-grid">
 			<div class="col-4-12">
@@ -281,7 +281,7 @@
 					<p>By default, the dropdown has a fixed width and the text is wrapping into the next line. If you want your dropdown to be smaller, so that it extends to the width of its content without the text wrapping, add the <code>.dropdown-small</code> class. This is useful for button dropdowns.</p>
 				<?php
 					$text = '<div class="button-dropdown" data-dropdown>
-	<button>Dropdown <i class="icon-chevron-down"></i></button>
+	<button class="button">Dropdown <i class="icon-chevron-down"></i></button>
 	<div class="dropdown dropdown-small">
 		<ul class="nav nav-dropdown">
 			<li><a href="#">Item</a></li>
@@ -301,7 +301,7 @@
 					<p>To give the dropdown a fixed height and enable its content to scroll, just add the <code>.dropdown-scrollable</code> class.</p>
 				<?php
 					$text = '<div class="button-dropdown" data-dropdown>
-	<button>Dropdown <i class="icon-chevron-down"></i></button>
+	<button class="button">Dropdown <i class="icon-chevron-down"></i></button>
 	<div class="dropdown dropdown-scrollable">
 		<ul class="nav nav-dropdown">
 			<li><a href="#">Item</a></li>
@@ -352,7 +352,7 @@
 				<?php
 					$text = '<div class="margin" data-margin>
 	<div class="button-dropdown" data-dropdown>
-		<button>Hover <i class="icon-chevron-down"></i></button>
+		<button class="button">Hover <i class="icon-chevron-down"></i></button>
 		<div class="dropdown dropdown-small">
 			<ul class="nav nav-dropdown">
 				<li><a href="#">Item</a></li>
@@ -366,7 +366,7 @@
 		</div>
 	</div>
 	<div class="button-dropdown" data-dropdown>
-		<button class="button-primary">Hover <i class="icon-chevron-down"></i></button>
+		<button class="button button-primary">Hover <i class="icon-chevron-down"></i></button>
 		<div class="dropdown dropdown-small">
 			<ul class="nav nav-dropdown">
 				<li><a href="#">Item</a></li>
@@ -380,7 +380,7 @@
 		</div>
 	</div>
 	<div class="button-dropdown" data-dropdown>
-		<button class="button-success">Hover <i class="icon-chevron-down"></i></button>
+		<button class="button button-success">Hover <i class="icon-chevron-down"></i></button>
 		<div class="dropdown dropdown-small">
 			<ul class="nav nav-dropdown">
 				<li><a href="#">Item</a></li>
@@ -394,7 +394,7 @@
 		</div>
 	</div>
 	<div class="button-dropdown" data-dropdown>
-		<button class="button-danger">Hover <i class="icon-chevron-down"></i></button>
+		<button class="button button-danger">Hover <i class="icon-chevron-down"></i></button>
 		<div class="dropdown dropdown-small">
 			<ul class="nav nav-dropdown">
 				<li><a href="#">Item</a></li>
@@ -408,7 +408,7 @@
 		</div>
 	</div>
 	<div class="button-dropdown" data-dropdown>
-		<button disabled>Hover <i class="icon-chevron-down"></i></button>
+		<button class="button" disabled>Hover <i class="icon-chevron-down"></i></button>
 		<div class="dropdown dropdown-small">
 			<ul class="nav nav-dropdown">
 				<li><a href="#">Item</a></li>
@@ -430,9 +430,9 @@
 				<?php
 					$text = '<div class="margin" data-margin>
 	<div class="button-group">
-		<button>Button</button>
+		<button class="button">Button</button>
 		<div data-dropdown="{mode:\'click\'}">
-			<button>
+			<button class="button">
 				<i class="icon-chevron-down"></i>
 			</button>
 			<div class="dropdown dropdown-small">
@@ -449,7 +449,7 @@
 		</div>
 	</div>
 	<div class="button-group">
-		<button class="button-primary">Button</button>
+		<button class="button button-primary">Button</button>
 		<div data-dropdown="{mode:\'click\'}">
 			<a href="#" class="button button-primary">
 				<i class="icon-chevron-down"></i>
@@ -468,7 +468,7 @@
 		</div>
 	</div>
 	<div class="button-group">
-		<button class="button-success">Button</button>
+		<button class="button button-success">Button</button>
 		<div data-dropdown="{mode:\'click\'}">
 			<a href="#" class="button button-success">
 				<i class="icon-chevron-down"></i>
@@ -487,7 +487,7 @@
 		</div>
 	</div>
 	<div class="button-group">
-		<button class="button-danger">Button</button>
+		<button class="button button-danger">Button</button>
 		<div data-dropdown="{mode:\'click\'}">
 			<a href="#" class="button button-danger">
 				<i class="icon-chevron-down"></i>
@@ -506,9 +506,9 @@
 		</div>
 	</div>
 	<div class="button-group">
-		<button disabled>Button</button>
+		<button class="button" disabled>Button</button>
 		<div data-dropdown="{mode:\'click\'}">
-			<button disabled><i class="icon-chevron-down"></i></button>
+			<button class="button" disabled><i class="icon-chevron-down"></i></button>
 			<div class="dropdown">
 				<ul class="nav nav-dropdown">
 					<li><a href="#">Item</a></li>

@@ -13,7 +13,7 @@
 					<h3 class="docs-article-subtitle">Example</h3>
 					<div class="margin">
 						<div class="form-file">
-							<button>Select</button>
+							<button class="button">Select</button>
 							<input id="form-file" type="file">
 						</div>
 						You can also use

@@ -49,9 +49,9 @@
 						<p>This example shows a button which is split into a standard action to the left and a dropdown toggle on the right, using the <a href="<?php echo get_url('core/dropdown'); ?>">Dropdown component</a>.</p>
 						<?php
 					$text = '<div class="button-group">
-	<button class="button-primary"><i class="icon-folder-open"></i> Post</button>
+	<button class="button button-primary"><i class="icon-folder-open"></i> Post</button>
 	<div data-dropdown="{mode:\'click\'}">
-		<button class="button-primary">
+		<button class="button button-primary">
 			<i class="icon-circle-down"></i>
 		</button>
 		<div class="dropdown dropdown-small">

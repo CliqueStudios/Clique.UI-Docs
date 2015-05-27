@@ -1,7 +1,5 @@
 
-
 	<div class="container container-center">
-
 		<table class="table table-hover table-striped">
 			<caption>Table caption</caption>
 			<thead>
@@ -38,7 +36,6 @@
 				</tr>
 			</tbody>
 		</table>
-
 		<table class="table table-striped table-condensed">
 			<caption>Table caption</caption>
 			<thead>
@@ -75,5 +72,4 @@
 				</tr>
 			</tbody>
 		</table>
-
 	</div>

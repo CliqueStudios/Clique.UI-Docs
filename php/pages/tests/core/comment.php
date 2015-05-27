@@ -1,13 +1,8 @@
 
-
 	<div class="container container-center">
-
 		<h3>Comment</h3>
-
 		<div class="row">
-
 			<div class="col-12-12">
-
 				<ul class="comment-list">
 					<li>
 						<article class="comment">
@@ -89,7 +84,6 @@
 									</div>
 								</article>
 							</li>
-
 						</ul>
 					</li>
 					<li>
@@ -105,9 +99,6 @@
 						</article>
 					</li>
 				</ul>
-
 			</div>
-
 		</div>
-
 	</div>

@@ -103,7 +103,7 @@ function get_sidebar($page = '')
 
 function get_project_dir()
 {
-	return dirname( dirname( dirname( dirname( __FILE__ ) ) ) );
+	return dirname( dirname( dirname( __FILE__ ) ) );
 }
 
 function get_dev_dir()

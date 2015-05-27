@@ -176,7 +176,7 @@
 					</div>
 				</div>
 				<button class="button" disabled>Disabled</button>
-				<button class="button" data-tooltip title="Bazinga!">Tooltip</button>
+				<button class="button" data-tooltip title="World!">Tooltip</button>
 				<button class="button" data-modal="{target:'#modal-1'}">Modal</button>
 				<button class="button" data-offcanvas="{target:'#offcanvas-1'}">Off Canvas</button>
 				<button class="button button-link">Button link</button>

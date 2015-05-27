@@ -8,7 +8,7 @@ define( 'SLOGAN', 'A lightweight, modular front-end framework for rapid web-inte
 /*** CONFIG ***/
 
 define( 'REPOSITORY_LINK', 'https://github.com/CliqueStudios/Clique.UI/' );
-define( 'VERSION', '1.0.2' );
+define( 'VERSION', '1.0.3' );
 define( 'DOWNLOAD_LINK', REPOSITORY_LINK . 'releases/download/' . VERSION . '/Clique.UI-' . VERSION . '.zip' );
 define( 'ISSUES_LINK', REPOSITORY_LINK . 'issues/' );
 define( 'CHANGELOG_LINK', REPOSITORY_LINK . 'commits/master/' );

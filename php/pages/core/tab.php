@@ -125,42 +125,6 @@
 						</li>
 					</ul>
 					<hr>
-					<h3>Justify tabs</h3>
-					<p>Add the <code>.tab-grid</code> class and one of the <code>.col-*</code> classes from the <a href="<?php echo get_url('core/grid'); ?>">Grid component</a> to the list items to arrange tabs in a grid that takes up full width of its parent element.</p>
-					<div class="flex flex-bottom flex-space-between row-margin docs-article-subtitle">
-						<div class="col">
-							<h3>Usage</h3>
-						</div>
-						<div class="col">
-							<ul class="tab" data-tab="{connect:'#tab2-tabs'}">
-								<li><a href="#">Example</a></li>
-								<li><a href="#">Markup</a></li>
-							</ul>
-						</div>
-					</div>
-					<ul id="tab2-tabs" class="switcher margin">
-						<li>
-							<div class="col-6-12-medium">
-								<ul class="tab tab-grid tab-bottom" data-tab>
-									<li class="col-4-12 active">
-										<a href="#">Active</a>
-									</li>
-									<li class="col-4-12">
-										<a href="#">Item</a>
-									</li>
-									<li class="col-4-12">
-										<a href="#">Item</a>
-									</li>
-								</ul>
-							</div>
-						</li>
-						<li>
-							<pre><code>&lt;ul class="tab tab-grid tab-bottom" data-tab&gt;
-    &lt;li class="col-4-12"&gt;&lt;a href="#"&gt;...&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</code></pre>
-						</li>
-					</ul>
-					<hr>
 					<h3>Center tabs</h3>
 					<p>Add the <code>.tab-center</code> class to a <code>&lt;div&gt;</code> element around the tabbed navigation to center tabs.</p>
 					<div class="flex flex-bottom flex-space-between row-margin docs-article-subtitle">
@@ -177,13 +141,11 @@
 					<ul id="tab3-tabs" class="switcher margin">
 						<li>
 							<div class="col-6-12-medium">
-								<div class="tab-center">
-									<ul class="tab" data-tab>
-										<li class="active"><a href="#">Active</a></li>
-										<li><a href="#">Item</a></li>
-										<li><a href="#">Item</a></li>
-									</ul>
-								</div>
+								<ul class="tab tab-center" data-tab>
+									<li class="active"><a href="#">Active</a></li>
+									<li><a href="#">Item</a></li>
+									<li><a href="#">Item</a></li>
+								</ul>
 							</div>
 						</li>
 						<li>

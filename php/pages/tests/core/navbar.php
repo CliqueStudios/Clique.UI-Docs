@@ -1,5 +1,4 @@
 
-
 <div class="container container-center">
 	<h1>Navbar</h1>
 	<div class="margin">
@@ -22,7 +21,7 @@
 					</div>
 				</li>
 				<li class="parent" data-dropdown>
-					<a href="http://www.getuikit.com">Parent as link</a>
+					<a href="#">Parent as link</a>
 					<div class="dropdown dropdown-navbar">
 						<ul class="nav nav-navbar">
 							<li><a href="#">Item</a></li>
@@ -42,7 +41,6 @@
 				<ul class="navbar-nav hidden-small">
 					<li class="parent" data-dropdown>
 						<a href="">Parent</a>
-
 						<div class="dropdown dropdown-navbar">
 							<ul class="nav nav-navbar">
 								<li><a href="#">Item</a></li>
@@ -54,28 +52,19 @@
 								<li><a href="#">Separated item</a></li>
 							</ul>
 						</div>
-
 					</li>
 					<li><a href="">Item</a></li>
 					<li class="active"><a href="">Active</a></li>
 				</ul>
-
 			</div>
-
 			<div class="navbar-content navbar-center">Center</div>
-
 		</nav>
-
 	</div>
-
 	<div class="margin">
-
 		<nav class="navbar">
-
 			<ul class="navbar-nav hidden-small">
 				<li class="parent" data-dropdown>
 					<a href="">Parent</a>
-
 					<div class="dropdown dropdown-navbar">
 						<ul class="nav nav-navbar">
 							<li><a href="#">Item</a></li>
@@ -87,22 +76,17 @@
 							<li><a href="#">Separated item</a></li>
 						</ul>
 					</div>
-
 				</li>
 				<li><a href="">Item</a></li>
 				<li class="active"><a href="">Active</a></li>
 			</ul>
-
 			<a href="#offcanvas-1" class="navbar-toggle visible-small" data-offcanvas></a>
-
 			<div class="navbar-flip">
-
 				<ul class="navbar-nav hidden-small">
 					<li class="active"><a href="">Active</a></li>
 					<li><a href="">Item</a></li>
 					<li class="parent" data-dropdown>
 						<a href="">Parent</a>
-
 						<div class="dropdown dropdown-navbar">
 							<ul class="nav nav-navbar">
 								<li><a href="#">Item</a></li>
@@ -114,26 +98,18 @@
 								<li><a href="#">Separated item</a></li>
 							</ul>
 						</div>
-
 					</li>
 				</ul>
-
 			</div>
-
 		</nav>
-
 	</div>
-
 	<div class="margin">
-
 		<nav class="navbar">
-
 			<ul class="navbar-nav hidden-small">
 				<li class="active"><a href="" class="navbar-nav-subtitle">Active<div>Subtitle</div></a></li>
 				<li><a href="" class="navbar-nav-subtitle">Item<div>Subtitle</div></a></li>
 				<li class="parent" data-dropdown>
 					<a href="" class="navbar-nav-subtitle">Parent<div>Subtitle</div></a>
-
 					<div class="dropdown dropdown-navbar">
 						<ul class="nav nav-navbar">
 							<li><a href="#">Item</a></li>
@@ -145,7 +121,6 @@
 							<li><a href="#">Separated item</a></li>
 						</ul>
 					</div>
-
 				</li>
 			</ul>
 			<a href="#offcanvas-1" class="navbar-toggle visible-small" data-offcanvas></a>

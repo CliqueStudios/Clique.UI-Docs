@@ -1,7 +1,5 @@
 
-
 	<div class="container container-center">
-
 		<h1>
 			<i class="icon-cog"></i> An H1 element with icon</h1>
 		<h2>
@@ -14,11 +12,8 @@
 			<i class="icon-cog"></i> An H5 element with icon</h5>
 		<h6>
 			<i class="icon-cog"></i> An H6 element with icon</h6>
-
 		<h2>Elements</h2>
-
 		<div class="row" data-row-margin>
-
 			<div class="col-2-10-medium">
 				<ul class="list">
 					<li>
@@ -42,7 +37,6 @@
 					</li>
 				</ul>
 			</div>
-
 			<div class="col-2-10-medium">
 				<ul class="list">
 					<li>
@@ -71,7 +65,6 @@
 					</li>
 				</ul>
 			</div>
-
 			<div class="col-2-10-medium">
 				<ul class="list list-line">
 					<li>
@@ -84,7 +77,6 @@
 						<i class="icon-cog"></i> List item 4</li>
 				</ul>
 			</div>
-
 			<div class="col-2-10-medium">
 				<ul class="list list-striped">
 					<li>
@@ -97,7 +89,6 @@
 						<i class="icon-cog"></i> List item 4</li>
 				</ul>
 			</div>
-
 			<div class="col-2-10-medium">
 				<table class="table table-striped table-hover">
 					<caption>
@@ -122,14 +113,10 @@
 					</tbody>
 				</table>
 			</div>
-
 		</div>
-
 		<h2>Button</h2>
-
 		<p data-margin>
 			<a class="button button-mini" href="#">Link</a>
-
 			<a class="button button-mini" href="#">
 				<i class="icon-cog"></i>
 			</a>
@@ -137,7 +124,6 @@
 				<i class="icon-cog"></i> Button
 				<i class="icon-cog"></i>
 			</button>
-
 			<a class="button button-mini" href="#">
 				<i class="icon-user"></i>
 			</a>
@@ -145,7 +131,6 @@
 				<i class="icon-user"></i> Button
 				<i class="icon-user"></i>
 			</button>
-
 			<a class="button button-mini" href="#">
 				<i class="icon-home"></i>
 			</a>
@@ -154,10 +139,8 @@
 				<i class="icon-home"></i>
 			</button>
 		</p>
-
 		<p data-margin>
 			<a class="button button-small" href="#">Link</a>
-
 			<a class="button button-small" href="#">
 				<i class="icon-cog"></i>
 			</a>
@@ -165,7 +148,6 @@
 				<i class="icon-cog"></i> Button
 				<i class="icon-cog"></i>
 			</button>
-
 			<a class="button button-small" href="#">
 				<i class="icon-user"></i>
 			</a>
@@ -173,7 +155,6 @@
 				<i class="icon-user"></i> Button
 				<i class="icon-user"></i>
 			</button>
-
 			<a class="button button-small" href="#">
 				<i class="icon-home"></i>
 			</a>
@@ -182,10 +163,8 @@
 				<i class="icon-home"></i>
 			</button>
 		</p>
-
 		<p data-margin>
 			<a class="button" href="#">Link</a>
-
 			<a class="button" href="#">
 				<i class="icon-cog"></i>
 			</a>
@@ -193,7 +172,6 @@
 				<i class="icon-cog"></i> Button
 				<i class="icon-cog"></i>
 			</button>
-
 			<a class="button" href="#">
 				<i class="icon-user"></i>
 			</a>
@@ -201,7 +179,6 @@
 				<i class="icon-user"></i> Button
 				<i class="icon-user"></i>
 			</button>
-
 			<a class="button" href="#">
 				<i class="icon-home"></i>
 			</a>
@@ -210,10 +187,8 @@
 				<i class="icon-home"></i>
 			</button>
 		</p>
-
 		<p data-margin>
 			<a class="button button-large" href="#">Link</a>
-
 			<a class="button button-large" href="#">
 				<i class="icon-cog"></i>
 			</a>
@@ -221,7 +196,6 @@
 				<i class="icon-cog"></i> Button
 				<i class="icon-cog"></i>
 			</button>
-
 			<a class="button button-large" href="#">
 				<i class="icon-user"></i>
 			</a>
@@ -229,7 +203,6 @@
 				<i class="icon-user"></i> Button
 				<i class="icon-user"></i>
 			</button>
-
 			<a class="button button-large" href="#">
 				<i class="icon-home"></i>
 			</a>
@@ -238,9 +211,7 @@
 				<i class="icon-home"></i>
 			</button>
 		</p>
-
 		<h2>Size modifiers</h2>
-
 		<ul class="list list-space">
 			<li>
 				<i class="icon-cog"></i> Default</li>
@@ -251,19 +222,14 @@
 			<li>
 				<i class="icon-cog icon-large"></i> Modifier icon-large</li>
 		</ul>
-
 		<h2>Icon hover</h2>
-
 		<a href="#" class="icon-hover icon-medium icon-github"></a>
 		<a href="#" class="icon-hover icon-medium icon-twitter"></a>
 		<a href="#" class="icon-hover icon-medium icon-dribbble"></a>
 		<a href="#" class="icon-hover icon-medium icon-html5"></a>
-
 		<h2>Icon button</h2>
-
 		<a href="#" class="icon-button icon-github"></a>
 		<a href="#" class="icon-button icon-twitter"></a>
 		<a href="#" class="icon-button icon-dribbble"></a>
 		<a href="#" class="icon-button icon-html5"></a>
-
 	</div>

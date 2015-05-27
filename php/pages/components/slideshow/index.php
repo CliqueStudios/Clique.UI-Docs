@@ -240,7 +240,7 @@
 										<p>Lorem
 											<a href="#">ipsum dolor</a> sit amet, consetetur sadipscing elitr,
 											<br>sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
-										<button class="button-primary">Button</button>
+										<button class="button button-primary">Button</button>
 									</div>
 								</div>
 							</li>
@@ -250,7 +250,7 @@
 									<h3>Overlay Top</h3>
 									<p>Lorem
 										<a href="#">ipsum dolor</a> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
-									<button class="button-primary">Button</button>
+									<button class="button button-primary">Button</button>
 								</div>
 							</li>
 							<li>
@@ -259,7 +259,7 @@
 									<h3>Overlay Bottom</h3>
 									<p>Lorem
 										<a href="#">ipsum dolor</a> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
-									<button class="button-primary">Button</button>
+									<button class="button button-primary">Button</button>
 								</div>
 							</li>
 							<li>
@@ -268,7 +268,7 @@
 									<h3>Overlay Left</h3>
 									<p>Lorem
 										<a href="#">ipsum dolor</a> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
-									<button class="button-primary">Button</button>
+									<button class="button button-primary">Button</button>
 								</div>
 							</li>
 							<li>
@@ -277,7 +277,7 @@
 									<h3>Overlay Right</h3>
 									<p>Lorem
 										<a href="#">ipsum dolor</a> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
-									<button class="button-primary">Button</button>
+									<button class="button button-primary">Button</button>
 								</div>
 							</li>
 						</ul>
@@ -341,7 +341,7 @@
 										<div class="col-8-12">
 											<h3 class="panel-title">Headline 1</h3>
 											<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-											<button>Read more</button>
+											<button class="button">Read more</button>
 										</div>
 									</div>
 								</div>
@@ -352,7 +352,7 @@
 										<div class="col-8-12">
 											<h3 class="panel-title">Headline 2</h3>
 											<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-											<button>Read more</button>
+											<button class="button">Read more</button>
 										</div>
 										<div class="col-4-12">
 											<img src="<?php echo get_image('placeholder_200x200.svg'); ?>" width="200" height="200" alt="">

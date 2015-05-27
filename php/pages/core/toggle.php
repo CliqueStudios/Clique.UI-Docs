@@ -24,7 +24,7 @@
 						<?php
 					$text = '<p><button data-toggle="{target:\'.toggle2\'}">Toggle</button></p>
 <div class="panel panel-box toggle2">Hello!</div>
-<div class="panel panel-box toggle2 hidden">Bazinga!</div>';
+<div class="panel panel-box toggle2 hidden">World!</div>';
 						print_example($text);
 					?>
 						<p><span class="badge">NOTE</span> In this example we added the <code>.hidden</code> class to one of the items, so that only the other item will be shown. The toggle will switch visible states between both elements.</p>

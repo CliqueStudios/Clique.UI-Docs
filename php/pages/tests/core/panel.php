@@ -1,11 +1,7 @@
 
-
 	<div class="container container-center">
-
 		<h1>Panel</h1>
-
 		<h2>Horizontal</h2>
-
 		<div class="row" data-grid-match="{target:'> div > .panel'}" data-row-margin>
 			<div class="col-3-12-medium">
 				<div class="panel panel-box">
@@ -44,7 +40,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="row" data-grid-match="{target:'> div > .panel'}" data-row-margin>
 			<div class="col-3-12-medium">
 				<div class="panel panel-box panel-box-primary">
@@ -83,7 +78,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="row" data-grid-match="{target:'> div > .panel'}" data-row-margin>
 			<div class="col-3-12-medium">
 				<div class="panel panel-box panel-box-secondary">
@@ -122,7 +116,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="row" data-grid-match="{target:'> div > .panel'}" data-row-margin>
 			<div class="col-3-12-medium">
 				<div class="panel panel-hover">
@@ -161,7 +154,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="row" data-row-margin>
 			<div class="col-4-12-medium">
 				<div class="panel panel-header">
@@ -189,7 +181,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="row" data-row-margin>
 			<div class="col-4-12-medium">
 				<div class="panel panel-space">
@@ -217,9 +208,7 @@
 				</div>
 			</div>
 		</div>
-
 		<h2>Panel with grid gutter divider</h2>
-
 		<div class="row row-divider" data-row-margin>
 			<div class="col-4-12-medium">
 				<div class="panel">
@@ -241,9 +230,7 @@
 				</div>
 			</div>
 		</div>
-
 		<h3>Stays the same on all screen sizes</h3>
-
 		<div class="row row-divider" data-grid-match>
 			<div class="col-4-12">
 				<div class="panel">
@@ -266,9 +253,7 @@
 				</div>
 			</div>
 		</div>
-
 		<h2>Vertical</h2>
-
 		<div class="row" data-row-margin>
 			<div class="col-4-12">
 				<div class="panel panel-box">
@@ -308,5 +293,4 @@
 				</div>
 			</div>
 		</div>
-
 	</div>

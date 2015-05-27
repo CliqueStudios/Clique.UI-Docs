@@ -341,7 +341,7 @@
 					<ul id="nav5-tabs" class="switcher margin">
 						<li>
 							<div class="button-dropdown" data-dropdown>
-								<button>Dropdown <i class="icon-chevron-down"></i></button>
+								<button class="button">Dropdown <i class="icon-chevron-down"></i></button>
 								<div class="dropdown dropdown-small">
 									<ul class="nav nav-dropdown">
 										<li><a href="#">Item</a></li>

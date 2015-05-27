@@ -170,7 +170,7 @@
 							<div class="cover-background position-relative" style="height: 300px; background-image: url(<?php echo get_image('placeholder_600x400.jpg'); ?>);">
 								<img class="invisible" src="<?php echo get_image('placeholder_600x400.jpg'); ?>" width="600" height="400" alt="">
 								<div class="position-cover flex flex-center flex-middle">
-									<div style="background: rgba(42, 142, 183, 0.8); font-size: 50px; line-height: 75px; color: #fff;">Bazinga!</div>
+									<div style="background: rgba(42, 142, 183, 0.8); font-size: 50px; line-height: 75px; color: #fff;">World!</div>
 								</div>
 							</div>
 						</li>

@@ -1,11 +1,7 @@
 
-
 	<div class="container container-center">
-
 		<h1>Thumbnail</h1>
-
 		<h2>Image, anchor, figure</h2>
-
 		<div class="margin" data-margin>
 			<img class="thumbnail" src="<?php echo get_image('placeholder_200x100.svg'); ?>" alt="">
 			<a class="thumbnail" href="#">
@@ -15,7 +11,6 @@
 				<img src="<?php echo get_image('placeholder_200x100.svg'); ?>" alt="">
 			</figure>
 		</div>
-
 		<div class="margin" data-margin>
 			<div class="thumbnail">
 				<img src="<?php echo get_image('placeholder_200x100.svg'); ?>" alt="">
@@ -30,9 +25,7 @@
 				<figcaption class="thumbnail-caption">Caption <code>&lt;figure&gt;</code></figcaption>
 			</figure>
 		</div>
-
 		<h2>Auto sizes</h2>
-
 		<div class="margin" data-margin>
 			<img class="thumbnail thumbnail-large" src="<?php echo get_image('placeholder_600x400.jpg'); ?>" alt="">
 			<a class="thumbnail thumbnail-large" href="#">
@@ -57,9 +50,7 @@
 				<img src="<?php echo get_image('placeholder_600x400.jpg'); ?>" alt="">
 			</a>
 		</div>
-
 		<h2>List of thumbnails as floating grid boxes</h2>
-
 		<ul class="row" data-row-margin>
 			<li class="col-6-12-medium">
 				<img class="thumbnail" src="<?php echo get_image('placeholder_600x400.jpg'); ?>" alt="">
@@ -94,5 +85,4 @@
 				</a>
 			</li>
 		</ul>
-
 	</div>

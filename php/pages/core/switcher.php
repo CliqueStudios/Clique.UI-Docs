@@ -21,7 +21,7 @@
 <ul id="subnav-pill-content-1" class="switcher">
 	<li class="active">Hello!</li>
 	<li>Hello again!</li>
-	<li>Bazinga!</li>
+	<li>World!</li>
 </ul>';
 						print_example($text);
 					?>
@@ -41,7 +41,7 @@
 		<ul id="switch-from-content" class="switcher">
 			<li class="active">Hello! <a href="#" data-switcher-item="next">Switch to the next content section</a></li>
 			<li>Hello again! <a href="#" data-switcher-item="2">Switch to third content section 3</a></li>
-			<li>Bazinga! <a href="#" data-switcher-item="previous">Switch to the previous content section</a></li>
+			<li>World! <a href="#" data-switcher-item="previous">Switch to the previous content section</a></li>
 		</ul>
 	</div>
 </div>';
@@ -145,7 +145,7 @@
 		<ul id="switcher-content-a-fade" class="switcher margin">
 			<li>Hello!</li>
 			<li>Hello again!</li>
-			<li>Bazinga!</li>
+			<li>World!</li>
 		</ul>
 	</div>
 	<div>
@@ -158,7 +158,7 @@
 		<ul id="switcher-content-a-scale" class="switcher margin">
 			<li>Hello!</li>
 			<li>Hello again!</li>
-			<li>Bazinga!</li>
+			<li>World!</li>
 		</ul>
 	</div>
 	<div>
@@ -171,7 +171,7 @@
 		<ul id="switcher-content-a-slide-top" class="switcher margin">
 			<li>Hello!</li>
 			<li>Hello again!</li>
-			<li>Bazinga!</li>
+			<li>World!</li>
 		</ul>
 	</div>
 	<div>
@@ -184,7 +184,7 @@
 		<ul id="switcher-content-a-slide-bottom" class="switcher margin">
 			<li>Hello!</li>
 			<li>Hello again!</li>
-			<li>Bazinga!</li>
+			<li>World!</li>
 		</ul>
 	</div>
 	<div>
@@ -197,7 +197,7 @@
 		<ul id="switcher-content-a-slide-left" class="switcher margin">
 			<li>Hello!</li>
 			<li>Hello again!</li>
-			<li>Bazinga!</li>
+			<li>World!</li>
 		</ul>
 	</div>
 	<div>
@@ -210,7 +210,7 @@
 		<ul id="switcher-content-a-slide-right" class="switcher margin">
 			<li>Hello!</li>
 			<li>Hello again!</li>
-			<li>Bazinga!</li>
+			<li>World!</li>
 		</ul>
 	</div>
 	<div>
@@ -223,7 +223,7 @@
 		<ul id="switcher-content-a-slide-horizontal" class="switcher margin">
 			<li>Hello!</li>
 			<li>Hello again!</li>
-			<li>Bazinga!</li>
+			<li>World!</li>
 		</ul>
 	</div>
 	<div>
@@ -236,7 +236,7 @@
 		<ul id="switcher-content-a-slide-vertical" class="switcher margin">
 			<li>Hello!</li>
 			<li>Hello again!</li>
-			<li>Bazinga!</li>
+			<li>World!</li>
 		</ul>
 	</div>
 </div>';
@@ -254,7 +254,7 @@
 <ul id="tab-content-a-anim-custom" class="switcher margin">
 	<li>Hello!</li>
 	<li>Hello again!</li>
-	<li>Bazinga!</li>
+	<li>World!</li>
 </ul>';
 						print_example($text);
 					?>
@@ -271,7 +271,7 @@
 <ul id="subnav-pill-content-2" class="switcher">
 	<li class="active">Hello!</li>
 	<li>Hello again!</li>
-	<li>Bazinga!</li>
+	<li>World!</li>
 </ul>';
 						print_example($text);
 					?>
@@ -289,14 +289,14 @@
 		<ul id="tab-content" class="switcher margin">
 			<li class="active">Hello!</li>
 			<li>Hello again!</li>
-			<li>Bazinga!</li>
+			<li>World!</li>
 		</ul>
 	</div>
 	<div class="col-6-12-medium">
 		<ul id="tab-bottom-content" class="switcher margin">
 			<li class="active">Hello!</li>
 			<li>Hello again!</li>
-			<li>Bazinga!</li>
+			<li>World!</li>
 		</ul>
 		<ul class="tab tab-bottom" data-tab="{connect:\'#tab-bottom-content\'}">
 			<li class="active"><a href="#">Tab</a></li>
@@ -326,7 +326,7 @@
 				<ul id="tab-left-content" class="switcher">
 					<li class="active">Hello!</li>
 					<li>Hello again!</li>
-					<li>Bazinga!</li>
+					<li>World!</li>
 				</ul>
 			</div>
 		</div>
@@ -344,7 +344,7 @@
 				<ul id="tab-right-content" class="switcher">
 					<li class="active">Hello!</li>
 					<li>Hello again!</li>
-					<li>Bazinga!</li>
+					<li>World!</li>
 				</ul>
 			</div>
 		</div>
@@ -360,25 +360,25 @@
 	<div class="col-6-12-medium">
 		<div data-switcher="{connect:\'#button-content\'}">
 			<a class="button" href="#">Link</a>
-			<button>Button</button>
-			<button>Button</button>
+			<button class="button">Button</button>
+			<button class="button">Button</button>
 		</div>
 		<ul id="button-content" class="switcher margin">
 			<li class="active">Hello!</li>
 			<li>Hello again!</li>
-			<li>Bazinga!</li>
+			<li>World!</li>
 		</ul>
 	</div>
 	<div class="col-6-12-medium">
 		<div class="button-group" data-switcher="{connect:\'#button-group-content\'}">
 			<a class="button" href="#">Link</a>
-			<button>Button</button>
-			<button>Button</button>
+			<button class="button">Button</button>
+			<button class="button">Button</button>
 		</div>
 		<ul id="button-group-content" class="switcher margin">
 			<li class="active">Hello!</li>
 			<li>Hello again!</li>
-			<li>Bazinga!</li>
+			<li>World!</li>
 		</ul>
 	</div>
 </div>';
@@ -400,7 +400,7 @@
 		<ul id="nav-content" class="switcher">
 			<li class="active">Hello!</li>
 			<li>Hello again!</li>
-			<li>Bazinga!</li>
+			<li>World!</li>
 		</ul>
 	</div>
 </div>';

@@ -85,7 +85,7 @@
 						</div>
 						<div class="form-row">
 							<div class="form-controls">
-								<button class="button-primary">Submit</button>
+								<button class="button button-primary">Submit</button>
 							</div>
 						</div>
 					</form>

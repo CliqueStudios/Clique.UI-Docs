@@ -526,16 +526,16 @@
 					<ul id="auto-margin-tabs" class="switcher margin">
 						<li>
 							<p class="col-6-12" data-margin>
-								<button>Button</button>
-								<button>Button</button>
-								<button>Button</button>
-								<button>Button</button>
-								<button>Button</button>
-								<button>Button</button>
-								<button>Button</button>
-								<button>Button</button>
-								<button>Button</button>
-								<button>Button</button>
+								<button class="button">Button</button>
+								<button class="button">Button</button>
+								<button class="button">Button</button>
+								<button class="button">Button</button>
+								<button class="button">Button</button>
+								<button class="button">Button</button>
+								<button class="button">Button</button>
+								<button class="button">Button</button>
+								<button class="button">Button</button>
+								<button class="button">Button</button>
 							</p>
 						</li>
 						<li>
@@ -876,7 +876,7 @@
 						<li>
 							<div class="visible-hover-inline margin">
 								Hover me...
-								<div class="hidden">Bazinga!</div>
+								<div class="hidden">World!</div>
 							</div>
 						</li>
 						<li>

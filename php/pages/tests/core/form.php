@@ -1,11 +1,7 @@
 
-
 	<div class="container container-center">
-
 		<h1>Form</h1>
-
 		<form class="form margin">
-
 			<fieldset data-margin>
 				<legend>Legend</legend>
 				<input type="text" placeholder="Text input">
@@ -19,11 +15,8 @@
 				<label>
 					<input type="checkbox"> Checkbox</label>
 			</fieldset>
-
 		</form>
-
 		<form class="form margin grid" data-row-margin>
-
 			<fieldset class="col-3-12-medium">
 				<legend>Rows</legend>
 				<div class="form-row">
@@ -46,7 +39,6 @@
 					<button class="button">Button</button>
 				</div>
 			</fieldset>
-
 			<fieldset class="col-3-12-medium">
 				<legend>States</legend>
 				<div class="form-row">
@@ -62,7 +54,6 @@
 					<input type="text" placeholder="form-success" class="form-success" value="form-success">
 				</div>
 			</fieldset>
-
 			<fieldset class="col-6-12-medium">
 				<legend>Sizes and styles</legend>
 				<div class="form-row">
@@ -93,11 +84,8 @@
 					<input type="text" placeholder="form-blank" class="form-blank">
 				</div>
 			</fieldset>
-
 		</form>
-
 		<form class="form margin">
-
 			<fieldset>
 				<legend>Widths</legend>
 				<div class="form-row" data-margin>
@@ -137,14 +125,10 @@
 					<textarea cols="30" rows="1" placeholder="col-1-120" class="col-1-12"></textarea>
 				</div>
 			</fieldset>
-
 		</form>
-
 		<form class="form">
-
 			<fieldset>
 				<legend>Form icon</legend>
-
 				<div class="form-row">
 					<span class="form-label">Date</span>
 					<div class="form-controls" data-margin>
@@ -167,11 +151,8 @@
 					</div>
 				</div>
 			</fieldset>
-
 		</form>
-
 		<form class="form margin form-stacked">
-
 			<fieldset>
 				<legend>Form stacked</legend>
 				<div class="form-row">
@@ -187,7 +168,6 @@
 						<input type="password" id="form-s-ip" placeholder="Password input">
 					</div>
 				</div>
-
 				<div class="form-row">
 					<label class="form-label" for="form-s-s">Select field</label>
 					<div class="form-controls">
@@ -197,7 +177,6 @@
 						</select>
 					</div>
 				</div>
-
 				<div class="form-row">
 					<label class="form-label" for="form-s-t">Textarea</label>
 					<div class="form-controls">
@@ -233,7 +212,6 @@
 							<input type="checkbox"> 3</label>
 					</div>
 				</div>
-
 				<div class="form-row">
 					<span class="form-label">Mixed controls</span>
 					<div class="form-controls">
@@ -264,11 +242,8 @@
 					</div>
 				</div>
 			</fieldset>
-
 		</form>
-
 		<form class="form margin form-horizontal">
-
 			<fieldset>
 				<legend>Form horizontal</legend>
 				<div class="form-row">
@@ -284,7 +259,6 @@
 						<input type="password" id="form-h-ip" placeholder="Password input">
 					</div>
 				</div>
-
 				<div class="form-row">
 					<label class="form-label" for="form-h-ie">Email input</label>
 					<div class="form-controls">
@@ -315,7 +289,6 @@
 						<input type="file" id="form-h-if">
 					</div>
 				</div>
-
 				<div class="form-row">
 					<label class="form-label" for="form-h-s">Select field</label>
 					<div class="form-controls">
@@ -336,7 +309,6 @@
 						</select>
 					</div>
 				</div>
-
 				<div class="form-row">
 					<label class="form-label" for="form-h-t">Textarea</label>
 					<div class="form-controls">
@@ -344,7 +316,6 @@
 						<p class="form-help-block">Add the class <code>.form-help-block</code> for help text in block elements.</p>
 					</div>
 				</div>
-
 				<div class="form-row">
 					<span class="form-label">Radio input</span>
 					<div class="form-controls form-controls-text">
@@ -373,7 +344,6 @@
 							<input type="checkbox"> 3</label>
 					</div>
 				</div>
-
 				<div class="form-row">
 					<span class="form-label">Mixed controls</span>
 					<div class="form-controls form-controls-text">
@@ -403,7 +373,6 @@
 						</p>
 					</div>
 				</div>
-
 				<div class="form-row">
 					<label class="form-label" for="form-h-ic">Color input</label>
 					<div class="form-controls">
@@ -458,36 +427,28 @@
 						<input type="datetime-local" id="form-h-idtl" placeholder="1970-01-01T00:00">
 					</div>
 				</div>
-
 				<div class="form-row">
 					<label class="form-label" for="form-h-it">Disabled input</label>
 					<div class="form-controls">
 						<input type="text" id="form-h-itd" placeholder="Text input" disabled>
 					</div>
 				</div>
-
 				<div class="form-row">
 					<label class="form-label" for="form-h-it">Required input</label>
 					<div class="form-controls">
 						<input type="text" id="form-h-itr" placeholder="Text input" required>
 					</div>
 				</div>
-
 			</fieldset>
-
 		</form>
-
 		<form class="form margin">
-
 			<fieldset>
 				<legend>Form grid</legend>
-
 				<div class="row">
 					<div class="col-1-12">
 						<input type="text" placeholder="100" class="col-1-12">
 					</div>
 				</div>
-
 				<div class="row">
 					<div class="col-6-12">
 						<input type="text" placeholder="50" class="col-1-12">
@@ -499,7 +460,6 @@
 						<input type="text" placeholder="25" class="col-1-12">
 					</div>
 				</div>
-
 				<div class="row" data-row-margin>
 					<div class="col-6-12-medium">
 						<label for="form-g-a">Label</label>
@@ -515,14 +475,10 @@
 					</div>
 				</div>
 			</fieldset>
-
 		</form>
-
 		<form class="form margin form-stacked">
-
 			<fieldset>
 				<legend>Form stacked grid</legend>
-
 				<div class="row">
 					<div class="col-1-12">
 						<label class="form-label" for="form-gs-street">Address</label>
@@ -531,7 +487,6 @@
 						</div>
 					</div>
 				</div>
-
 				<div class="row">
 					<div class="col-6-12">
 						<input type="text" placeholder="City" class="col-1-12">
@@ -543,7 +498,6 @@
 						<input type="text" placeholder="ZIP" class="col-1-12">
 					</div>
 				</div>
-
 				<div class="row" data-row-margin>
 					<div class="col-6-12-medium">
 						<label class="form-label" for="form-gs-a">Label</label>
@@ -559,7 +513,5 @@
 					</div>
 				</div>
 			</fieldset>
-
 		</form>
-
 	</div>
