@@ -28,8 +28,14 @@
 								?>
 								<div class="panel panel-box panel-header">
 									<h3 class="panel-title clearfix"><a href="<?php echo get_url($page->slug); ?>"><?php echo $page->title; ?></a> <small class="float-right">Since v1.0.0</small></h3>
-									<?php echo $page->description; ?>
-									<br><a href="<?php echo get_url($page->slug); ?>" class="button">Learn More <i class="icon icon-angle-right"></i></a>
+									<div class="row flex-bottom">
+										<div class="col-10-12-medium">
+											<p><?php echo $page->description; ?></p>
+										</div>
+										<div class="col-2-12-medium">
+											<a href="<?php echo get_url($page->slug); ?>" class="button button-primary button-block">Learn More <i class="icon icon-angle-right"></i></a>
+										</div>
+									</div>
 								</div>
 								<?php
 							}

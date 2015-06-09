@@ -169,36 +169,32 @@
 					</div>
 				</li>
 				<li>
-					<a href="">
-						<i class="icon-home"></i> Item</a>
-					</li>
-					<li>
-						<a href="" class="navbar-nav-subtitle">
-							<i class="icon-star"></i> Item
-							<div>Subtitle</div>
-						</a>
-					</li>
-				</ul>
-				<div class="navbar-content hidden-small">Some <a href="#">link</a>.</div>
-				<a href="" class="navbar-toggle hidden-small"></a>
-				<div class="navbar-content hidden-small">
-					<form class="form margin-remove display-inline-block">
-						<input class="form-col-small" type="text" placeholder="Search">
-						<button class="button button-primary">Submit</button>
-					</form>
-				</div>
-				<div class="navbar-content hidden-small">
-					<div class="button-group">
-						<a class="button button-danger" href="#">Link</a>
-						<button class="button button-danger">Button</button>
-					</div>
-				</div>
-				<div class="navbar-content navbar-center visible-small">Center</div>
-			</nav>
-		</div>
-		<div id="offcanvas-1" class="offcanvas">
-			<div class="offcanvas-bar">
-				<div class="panel">Lorem ipsum dolor sit amet, <a href="#">consetetur</a> sadipscing elitr.</div>
+					<a href=""><i class="icon-home"></i> Item</a>
+				</li>
+				<li>
+					<a href="" class="navbar-nav-subtitle"><i class="icon-star"></i> Item<div>Subtitle</div></a>
+				</li>
+			</ul>
+			<div class="navbar-content hidden-small">Some <a href="#">link</a>.</div>
+			<a href="" class="navbar-toggle hidden-small"></a>
+			<div class="navbar-content hidden-small">
+				<form class="form margin-remove display-inline-block">
+					<input class="form-col-small" type="text" placeholder="Search">
+					<button class="button button-primary">Submit</button>
+				</form>
 			</div>
+			<div class="navbar-content hidden-small">
+				<div class="button-group">
+					<a class="button button-danger" href="#">Link</a>
+					<button class="button button-danger">Button</button>
+				</div>
+			</div>
+			<div class="navbar-content navbar-center visible-small">Center</div>
+		</nav>
+	</div>
+	<div id="offcanvas-1" class="offcanvas">
+		<div class="offcanvas-bar">
+			<div class="panel">Lorem ipsum dolor sit amet, <a href="#">consetetur</a> sadipscing elitr.</div>
 		</div>
 	</div>
+</div>

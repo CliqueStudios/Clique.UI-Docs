@@ -21,7 +21,7 @@
 					<h2 id="browser-support"><a href="#browser-support" class="link-reset">Supported Browsers &amp; Platforms</a></h2>
 					<h3 class="margin-large-top margin-large-bottom">Desktop</h3>
 					<div class="row">
-						<div class="col-12-12 col-2-10-large">
+						<div class="col flex-item-grow">
 							<div class="text-center">
 								<img src="<?php echo get_image('chrome.svg'); ?>" alt="">
 							</div>
@@ -37,7 +37,7 @@
 								</tr>
 							</table>
 						</div>
-						<div class="col-12-12 col-2-10-large">
+						<div class="col flex-item-grow">
 							<div class="text-center">
 								<img src="<?php echo get_image('firefox.svg'); ?>" alt="">
 							</div>
@@ -53,7 +53,7 @@
 								</tr>
 							</table>
 						</div>
-						<div class="col-12-12 col-2-10-large">
+						<div class="col flex-item-grow">
 							<div class="text-center">
 								<img src="<?php echo get_image('ie.svg'); ?>" alt="">
 							</div>
@@ -69,7 +69,7 @@
 								</tr>
 							</table>
 						</div>
-						<div class="col-12-12 col-2-10-large">
+						<div class="col flex-item-grow">
 							<div class="text-center">
 								<img src="<?php echo get_image('safari.svg'); ?>" alt="">
 							</div>
@@ -85,7 +85,7 @@
 								</tr>
 							</table>
 						</div>
-						<div class="col-12-12 col-2-10-large">
+						<div class="col flex-item-grow">
 							<div class="text-center">
 								<img src="<?php echo get_image('opera.svg'); ?>" alt="">
 							</div>

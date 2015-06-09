@@ -1,14 +1,4 @@
-<style>
-	.test {
-		height: 100px;
-	}
-	.test-item > * {
-		display: block;
-		padding: 5px 15px;
-		background: #f0f0f0;
-		color: #444;
-	}
-</style>
+
 <div class="container container-center">
 	<h1>Sortable</h1>
 	<h2>Grid</h2>

@@ -582,33 +582,47 @@ function print_sidebar_links($links)
 {
 	foreach($links as $header => $pages) {
 
-		// Print the header
-		echo '<li class="nav-header">' . $header . '</li>' . "\n";
-
-		// Print sub-pages
+		$these_pages = array();
 		foreach($pages as $page) {
-
-			// Get `li` element
-			$li_class = '';
-			if(is_active_page($page->slug)) {
-				$li_class .= ' active';
-			}
-
-			$li_class = trim($li_class);
-			if($li_class) {
-				$output = '<li class="' . $li_class . '">';
-			} else {
-				$output = '<li>';
-			}
-
-			// Get `a` element
-			$output .= '<a href="' . get_url($page->slug) . '">' . $page->title . '</a>';
-
-			$output .= '</li>' . "\n";
-
-			// Print the output
-			echo $output;
+			$these_pages[] = $page->slug;
 		}
+
+		// Print the header
+		$parent_classes = array('docs-parent');
+		if(in_array(get_page(), $these_pages)) {
+			$parent_classes[] = 'active';
+		}
+		echo '<li class="' . implode(' ', $parent_classes) . '"><a href="' . get_url(reset($these_pages)) . '">' . $header . '</a>' . "\n";
+		// echo '<li class="docs-parent">' . $header . "\n";
+			echo '<ul class="nav-subnav">';
+
+			// Print sub-pages
+			foreach($pages as $page) {
+
+				// Get `li` element
+				$li_class = '';
+				if(is_active_page($page->slug)) {
+					$li_class .= ' active';
+				}
+
+				$li_class = trim($li_class);
+				if($li_class) {
+					$output = '<li class="' . $li_class . '">';
+				} else {
+					$output = '<li>';
+				}
+
+				// Get `a` element
+				$output .= '<a href="' . get_url($page->slug) . '">' . $page->title . '</a>';
+
+				$output .= '</li>' . "\n";
+
+				// Print the output
+				echo $output;
+			}
+
+			echo '</ul>';
+		echo '</li>';
 	}
 }
 

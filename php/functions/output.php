@@ -30,6 +30,8 @@ function get_docs_css($is_docs = true)
 	if($is_docs) {
 		echo '<link rel="stylesheet" href="' . get_css_file('docs.css') . '">' . "\n";
 		echo '<link rel="stylesheet" href="' . get_css_file('highlight.css') . '">' . "\n";
+	} else {
+		echo '<link rel="stylesheet" href="' . get_css_file('tests.css') . '">' . "\n";
 	}
 	echo "\n";
 }

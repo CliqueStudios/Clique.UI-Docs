@@ -40,7 +40,7 @@
 										</tr>
 										<tr>
 											<td><code>.active</code></td>
-											<td>Add this class to a list item to apply an active state and use a <code>&lt;span&gt;</code> instead of an <code>&lt;a&gt;</code> element.</td>
+											<td>Add this class to a list item to apply an active state.</td>
 										</tr>
 									</tbody>
 								</table>
@@ -48,10 +48,10 @@
 						</li>
 						<li>
 							<ul class="breadcrumb">
-								<li><a href="#">Home</a></li>
-								<li><a href="#">Blog</a></li>
-								<li><span>Category</span></li>
-								<li class="active"><span>Post</span></li>
+								<li><a href="#">Link 1</a></li>
+								<li><a href="#">Link 2</a></li>
+								<li><span>Span</span></li>
+								<li class="active"><a href="#">Active Link</a></li>
 							</ul>
 						</li>
 						<li>

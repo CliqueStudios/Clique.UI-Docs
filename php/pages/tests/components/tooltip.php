@@ -1,9 +1,4 @@
 
-<style type="text/css">
-	.tooltip-container {
-		height: 110px;
-	}
-</style>
 <div class="container container-center">
 	<h1>Tooltip</h1>
 	<p>

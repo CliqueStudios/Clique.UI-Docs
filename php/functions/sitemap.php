@@ -16,6 +16,10 @@ function get_started_links()
 				'title' => 'Layout examples',
 				'slug' => 'get-started/layouts/',
 			),
+			(object)array(
+				'title' => 'Acknowledgements',
+				'slug' => 'get-started/acknowledgements/',
+			),
 		),
 		'Developers' => array(
 			(object)array(
@@ -50,7 +54,7 @@ function get_started_links()
 function get_core_links()
 {
 	$links = array(
-		'Defaults' => array(
+		'Core Components' => array(
 			(object)array(
 				'title' => 'Base',
 				'slug' => 'core/base',
@@ -138,10 +142,6 @@ function get_core_links()
 				'slug' => 'core/form-file'
 			),
 			(object)array(
-				'title' => 'Password',
-				'slug' => 'core/password'
-			),
-			(object)array(
 				'title' => 'Validation States',
 				'slug' => 'core/validation-states'
 			)
@@ -214,8 +214,8 @@ function get_core_links()
 				'slug' => 'core/scrollspy',
 			),
 			(object)array(
-				'title' => 'Smooth scroll',
-				'slug' => 'core/smooth-scroll',
+				'title' => 'ScrollTo',
+				'slug' => 'core/scrollto',
 			),
 			(object)array(
 				'title' => 'Toggle',
@@ -259,8 +259,16 @@ function get_component_links()
 		),
 		'Form' => array(
 			(object)array(
+				'title' => 'Button',
+				'slug' => 'components/button',
+			),
+			(object)array(
 				'title' => 'Upload',
 				'slug' => 'components/upload',
+			),
+			(object)array(
+				'title' => 'Password',
+				'slug' => 'components/password'
 			),
 			(object)array(
 				'title' => 'Progress',
@@ -389,7 +397,7 @@ function get_api_links()
 			),
 			(object)array(
 				'title' => '.fn',
-				'slug' => 'api/objects/fn',
+				'slug' => 'api/methods/fn',
 				'description' => 'Binds a new function or object to the global <code>Clique</code> object.'
 			),
 			(object)array(
@@ -399,37 +407,37 @@ function get_api_links()
 			),
 			(object)array(
 				'title' => '.on',
-				'slug' => 'api/objects/on',
+				'slug' => 'api/methods/on',
 				'description' => 'Binds an event a DOM object.'
 			),
 			(object)array(
 				'title' => '.one',
-				'slug' => 'api/objects/one',
+				'slug' => 'api/methods/one',
 				'description' => 'Binds an event a DOM object, to be handled only once (will unbind after the first time the event is triggered).'
 			),
 			(object)array(
 				'title' => '.plugin',
-				'slug' => 'api/objects/plugin',
+				'slug' => 'api/methods/plugin',
 				'description' => 'Registers a new dependent object to a ' . SITENAME . ' component.'
 			),
 			(object)array(
 				'title' => '.ready',
-				'slug' => 'api/objects/ready',
+				'slug' => 'api/methods/ready',
 				'description' => 'Callback function that\'s fired when the global <code>Clique</code> object is full initialized.'
 			),
 			(object)array(
 				'title' => '.trigger',
-				'slug' => 'api/objects/trigger',
+				'slug' => 'api/methods/trigger',
 				'description' => 'Triggers a DOM event.'
 			),
 			(object)array(
 				'title' => '.domObserve',
-				'slug' => 'api/objects/domObserve',
+				'slug' => 'api/methods/domobserve',
 				'description' => 'Registers a new DOM observer (watcher) with the <code>Clique</code> global object.'
 			),
 			(object)array(
 				'title' => '.delay',
-				'slug' => 'api/objects/delay',
+				'slug' => 'api/methods/delay',
 				'description' => 'Executes a function after a period of delay.'
 			),
 		),

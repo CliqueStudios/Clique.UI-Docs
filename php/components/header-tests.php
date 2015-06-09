@@ -18,20 +18,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-	<?php
-		get_docs_css(false);
-		// $path = get_page();
-		// $path_array = explode('/', $path);
-		// $parent = $path_array[count($path_array) - 2];
-		// $page = end($path_array);
-
-		// $module_path = implode('/', array($parent, $page));
-		// // if(file_exists(filename))
-		// if(file_exists(get_dist_dir() . '/css/' . $module_path . '.css')) {
-		// 	debug('Exists');
-		// }
-		// debug(get_dist_dir() . '/css/' . $module_path . '/css');
-	?>
+	<?php get_docs_css(false); ?>
 	<style>
 		body > .container {
 			padding-top: 50px;

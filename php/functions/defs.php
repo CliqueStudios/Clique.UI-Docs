@@ -3,12 +3,12 @@
 define( 'LOCALURL', 'cliqueui.dev' );
 define( 'STAGEURL', 'ui.cliquestudios.com' );
 define( 'SITENAME', 'Clique.UI' );
-define( 'SLOGAN', 'A lightweight, modular front-end framework for rapid web-interface development.' );
+define( 'SLOGAN', 'A modular framework for modern front-end development.' );
 
 /*** CONFIG ***/
 
 define( 'REPOSITORY_LINK', 'https://github.com/CliqueStudios/Clique.UI/' );
-define( 'VERSION', '1.0.3' );
+define( 'VERSION', '1.0.4' );
 define( 'DOWNLOAD_LINK', REPOSITORY_LINK . 'releases/download/' . VERSION . '/Clique.UI-' . VERSION . '.zip' );
 define( 'ISSUES_LINK', REPOSITORY_LINK . 'issues/' );
 define( 'CHANGELOG_LINK', REPOSITORY_LINK . 'commits/master/' );

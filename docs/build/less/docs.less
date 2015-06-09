@@ -147,6 +147,55 @@ h2 {
 .docs-middle {
 	background-color: #fff;
 }
+.docs-sidebar {
+	li {
+		border-top: 1px solid #fff;
+	}
+	.docs-nav {
+		> li {
+			> a {
+				&:hover,
+				&:focus {
+					background-color: @blue;
+					color: #fff;
+				}
+			}
+		}
+	}
+	.nav-parent-icon {
+		// > .open {
+		// 	> a {
+		// 		&:after {
+		// 			.transform(translate(0, -50%) rotate(90deg));
+		// 		}
+		// 	}
+		// }
+	}
+	.docs-parent.active {
+		> a {
+			background-color: @blue;
+			color: #fff;
+		}
+	}
+	.nav-subnav {
+		a {
+			padding-left: 20px;
+			margin-left: 20px;
+		}
+		a:hover,
+		a:focus,
+		.active > a {
+			background-color: @blue;
+			color: #fff;
+		}
+	}
+	.parent.active {
+		> a {
+			background-color: @blue;
+			color: #fff;
+		}
+	}
+}
 
 @media (min-width: 768px) {
 	.docs-sidebar {
@@ -154,12 +203,6 @@ h2 {
 		border-right: 1px solid #E5E5E5;
 		+ .docs-main {
 			padding-left: 50px !important;
-			border-left: 1px solid #E5E5E5;
-		}
-	}
-	.docs-sidebar {
-		.panel {
-			padding-right: 20px;
 		}
 	}
 }
@@ -275,20 +318,18 @@ h2 {
 		}
 	}
 
+	.navbar-nav > li > a:active,
+	.navbar-nav > li > a:hover,
+	.navbar-nav > li > a:focus {
+		background-color: transparent;
+		color: @orange;
+	}
+
 	.navbar-nav {
 		> li {
-			margin-left: 20px;
-			&:hover > a,
-			> a:focus,
-			> a:focus {
-			}
-			&.active {
-				> a {
-					background-color: transparent;
-					color: @orange;
-				}
-			}
 			> a {
+				padding-left: 30px;
+				padding-right: 30px;
 				height: 39px;
 				margin: 0;
 				border: 0;
@@ -298,13 +339,19 @@ h2 {
 				font-weight: 700;
 				text-transform: uppercase;
 				line-height: 38px;
-				color: #737373;
-				&:active {
+
+				&:active,
+				&:focus,
+				&:focus {
 					background-color: transparent;
+					color: @orange;
 				}
 			}
-			+ li {
-				margin-left: 20px;
+		}
+		> .active {
+			> a {
+				background-color: transparent;
+				color: @orange;
 			}
 		}
 	}
@@ -313,18 +360,9 @@ h2 {
 .docs-nav {
 	> li {
 		> a {
-			color: #777;
-		}
-		> a:hover,
-		> a:focus,
-		&.active > a {
-			background-color: #F5F5F5;
 			color: #444;
+			text-transform: uppercase;
 		}
-	}
-	.nav-header {
-		color: #222;
-		font-weight: normal;
 	}
 }
 
@@ -336,6 +374,7 @@ h2 {
 		font-size: 16px;
 		line-height: 16px;
 		text-transform: uppercase;
+		font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	}
 	div& {
 		border-bottom: 1px solid #ddd;
@@ -467,4 +506,77 @@ h2 {
 	.hljs-tag {
 		color: inherit;
 	}
+}
+
+.docs-icon {
+	font-size: 22px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.docs-panel-row {
+	& + & {
+		margin-top: 15px;
+	}
+}
+
+.docs-site-slogan {
+	font-size: 26px;
+	font-family: @header-font-family;
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.docs-acknowledgements-list {
+	> li {
+		+ li {
+			margin-top: 15px;
+			padding-top: 15px;
+			border-top: 1px solid #e5e5e5;
+		}
+	}
+}
+
+.docs-flex-example {
+	p {
+		margin: 0 0 5px;
+	}
+	> .row {
+		> * {
+			&:nth-child(2) {
+				~ * {
+					margin-top: 30px;
+				}
+			}
+		}
+	}
+	&-three {
+		> .row {
+			> * {
+				&:nth-child(3) {
+					margin-top: 0;
+					~ * {
+						margin-top: 30px;
+					}
+				}
+			}
+		}
+	}
+}
+.docs-flex-row {
+	& + & {
+		margin-top: 15px;
+	}
+	> * {
+		border: 1px solid rgba(45, 112, 145, 0.3);
+		background-color: #ebf7fd;
+		> * {
+			margin: 5px;
+		}
+	}
+}
+
+.docs-dropdown-parent {
+	position: relative;
 }

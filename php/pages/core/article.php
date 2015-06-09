@@ -9,7 +9,7 @@
 					<p class="article-lead" itemprop="about">Create articles within your page.</p>
 					<hr>
 					<h2 id="usage"><a href="#usage" class="link-reset">Usage</a></h2>
-					<p>The article component constists of the article itself, a title, meta data, an opening paragraph and dividers.</p>
+					<p>The article component constists of the article itself, a title, meta data, and an opening paragraph.</p>
 					<div class="flex flex-bottom flex-space-between row-margin docs-article-subtitle">
 						<div class="col">
 							<h3>Usage</h3>
@@ -49,10 +49,6 @@
 											<td><code>.article-lead</code></td>
 											<td>Add this class to the opening paragraph of your article to highlight it.</td>
 										</tr>
-										<tr>
-											<td><code>.article-divider</code></td>
-											<td>Add this class to a <code>&lt;hr&gt;</code> element to create a divider seperating different sections of your article.</td>
-										</tr>
 									</tbody>
 								</table>
 							</div>
@@ -60,11 +56,11 @@
 						<li>
 							<div class="article">
 								<h1 class="article-title" itemprop="headline">Article title</h1>
-								<p class="article-meta">Written by Super User on 12 April 2012. Posted in Blog</p>
+								<p class="article-meta">Written by Blog Author on <?php echo date('F j, Y'); ?>.</p>
 								<p class="article-lead" itemprop="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dolore et, expedita. A harum, laboriosam quasi porro, aliquid placeat pariatur fuga, sed quaerat, molestias natus.</p>
 								<hr>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 								<a href="#">Read more</a>
 							</div>
 						</li>
@@ -73,14 +69,11 @@
     &lt;h1 class="article-title"&gt;...&lt;/h1&gt;
     &lt;p class="article-meta"&gt;...&lt;/p&gt;
     &lt;p class="article-lead"&gt;...&lt;/p&gt;
-    Lorem ipsum ...
-    &lt;hr class="article-divider"&gt;
-    Lorem ipsum ...
-    &lt;a href="#"&gt;Read more&lt;/a&gt;
+    ...
 &lt;/article&gt;</code></pre>
 						</li>
 					</ul>
-				<?php get_microdata('author'); ?>
+					<?php get_microdata('author'); ?>
 				</article>
 			</div>
 		</div>

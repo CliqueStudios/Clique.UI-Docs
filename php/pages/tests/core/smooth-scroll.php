@@ -1,8 +1,5 @@
 
 	<style type="text/css">
-		body.container {
-			padding-bottom: 20px;
-		}
 	</style>
 	<div class="container container-center">
 		<h1>Smooth scroll</h1>

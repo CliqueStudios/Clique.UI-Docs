@@ -1,49 +1,4 @@
-<style type="text/css">
-	.width {
-		width: 200px;
-	}
 
-	[class*='grid'] p {
-		text-align: center;
-	}
-
-	.panel {
-		padding: 10px;
-		text-align: center;
-	}
-
-	:nth-child(8n-7) > .panel {
-		background: rgba(0, 0, 0, 0.1);
-	}
-
-	:nth-child(8n-6) > .panel {
-		background: rgba(0, 0, 0, 0.15);
-	}
-
-	:nth-child(8n-5) > .panel {
-		background: rgba(0, 0, 0, 0.2);
-	}
-
-	:nth-child(8n-4) > .panel {
-		background: rgba(0, 0, 0, 0.25);
-	}
-
-	:nth-child(8n-3) > .panel {
-		background: rgba(0, 0, 0, 0.3);
-	}
-
-	:nth-child(8n-2) > .panel {
-		background: rgba(0, 0, 0, 0.35);
-	}
-
-	:nth-child(8n-1) > .panel {
-		background: rgba(0, 0, 0, 0.40);
-	}
-
-	:nth-child(8n) > .panel {
-		background: rgba(0, 0, 0, 0.45);
-	}
-</style>
 <div class="container container-center">
 	<h2>Grid</h2>
 	<div class="clearfix" style="background: rgba(0,0,0,0.1);">
@@ -354,52 +309,58 @@
 	<h2>Even widths</h2>
 	<ul class="row row-2-col row-3-cols-small row-col-3-12-medium row-5-cols-large row-6-cols-xlarge" data-row-margin>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 	</ul>
 	<h2>Collapse gutter</h2>
@@ -429,52 +390,58 @@
 	</div>
 	<ul class="row row-collapse row-2-col row-3-cols-small row-col-3-12-medium row-5-cols-large row-6-cols-xlarge" data-row-margin>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 	</ul>
 	<h2>Small gutter</h2>
@@ -509,47 +476,52 @@
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 	</ul>
 	<h2>Medium gutter</h2>
@@ -579,52 +551,58 @@
 	</div>
 	<ul class="row row-medium row-2-col row-3-cols-small row-col-3-12-medium row-5-cols-large row-6-cols-xlarge" data-row-margin>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 		<li>
-			<div class="panel">1-2
+			<div class="panel">
+				1-2
 				<br>S-1-3
 				<br>M-1-4
 				<br>L-1-5
 				<br>XL-1-6
-				<div>
+			</div>
 		</li>
 	</ul>
 	<h2>Divider</h2>
@@ -762,36 +740,28 @@
 	</div>
 	<ul class="row grid-match row-2-col row-3-cols-small row-col-3-12-medium row-5-cols-large row-6-cols-xlarge" data-grid-match="{target:'> li > .panel', row:true}" data-row-margin>
 		<li>
-			<div class="panel">Lorem ipsum dolor sit amet.
-				<div>
+			<div class="panel">Lorem ipsum dolor sit amet.</div>
 		</li>
 		<li>
-			<div class="panel">Lorem ipsum dolor sit amet, consectetur.
-				<div>
+			<div class="panel">Lorem ipsum dolor sit amet, consectetur.</div>
 		</li>
 		<li>
-			<div class="panel">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-				<div>
+			<div class="panel">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
 		</li>
 		<li>
-			<div class="panel">Lorem ipsum dolor sit amet.
-				<div>
+			<div class="panel">Lorem ipsum dolor sit amet.</div>
 		</li>
 		<li>
-			<div class="panel">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-				<div>
+			<div class="panel">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</div>
 		</li>
 		<li>
-			<div class="panel">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-				<div>
+			<div class="panel">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
 		</li>
 		<li>
-			<div class="panel">Lorem ipsum dolor sit amet.
-				<div>
+			<div class="panel">Lorem ipsum dolor sit amet.</div>
 		</li>
 		<li>
-			<div class="panel">Lorem ipsum dolor sit amet, consectetur.
-				<div>
+			<div class="panel">Lorem ipsum dolor sit amet, consectetur.</div>
 		</li>
 	</ul>
-	</div>
+</div>
